@@ -22,7 +22,7 @@
   },
   "scripts": {
     "test": "nyc mocha --reporter spec --slow 200 --bail --timeout 10000 test/socket.io.js",
-    "prod": "npm i && npm audit fix && node server.js"
+    "prod": "npm i && node server.js"
   },
   "dependencies": {
     "debug": "~4.1.0",
